@@ -39,7 +39,7 @@ export default function Contact() {
       <div className="container-custom relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif font-bold text-white mb-4">Get in Touch</h2>
-          <p className="text-xl text-white/80">Let's discuss how we can serve your community</p>
+          <p className="text-xl text-white/80">Let&apos;s discuss how we can serve your community</p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-12">

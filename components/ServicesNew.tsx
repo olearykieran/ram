@@ -74,7 +74,7 @@ const itemVariants = {
     y: 0,
     transition: {
       duration: 0.5,
-      ease: "easeOut",
+      ease: "easeOut" as const,
     },
   },
 };
@@ -102,7 +102,7 @@ export default function ServicesNew() {
             Our <span className="italic font-light">Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive solutions for Long Island's religious properties and sacred spaces
+            Comprehensive solutions for Long Island&apos;s religious properties and sacred spaces
           </p>
         </motion.div>
 

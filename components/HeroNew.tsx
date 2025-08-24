@@ -66,7 +66,7 @@ export default function HeroNew() {
               transition={{ delay: 0.6, duration: 0.6 }}
               className="text-xl md:text-2xl text-gray-200 font-light mb-10 max-w-3xl mx-auto leading-relaxed"
             >
-              Serving Long Island's faith communities with exceptional stewardship and property solutions
+              Serving Long Island&apos;s faith communities with exceptional stewardship and property solutions
             </motion.p>
 
             <motion.div

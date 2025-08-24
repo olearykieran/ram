@@ -132,7 +132,7 @@ export default function AboutNew() {
             <h3 className="text-3xl font-serif mb-4">Leadership</h3>
             <div className="max-w-3xl mx-auto">
               <p className="text-lg font-semibold text-primary mb-2">
-                Patrick O'Brien, Founder & CEO
+                Patrick O&apos;Brien, Founder & CEO
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 With over two decades of experience in religious facility management across Long Island, 

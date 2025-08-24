@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { ArrowRight, Church, Shield, Building, Users } from "lucide-react";
+import { ArrowRight, Shield, Building, Users } from "lucide-react";
 
 export default function HeroMinimal() {
   return (
@@ -49,7 +49,7 @@ export default function HeroMinimal() {
 
             {/* Subtitle */}
             <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl">
-              Professional property stewardship for Long Island's faith communities
+              Professional property stewardship for Long Island&apos;s faith communities
             </p>
 
             {/* CTA Buttons */}

@@ -124,7 +124,7 @@ export default function HeroCrossAlt() {
 
               {/* Subtitle */}
               <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto leading-relaxed">
-                Serving Long Island's faith communities with exceptional 
+                Serving Long Island&apos;s faith communities with exceptional 
                 stewardship and sacred property management since 2005.
               </p>
 

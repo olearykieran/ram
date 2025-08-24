@@ -1,13 +1,12 @@
 "use client";
 
-import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { useRef, useEffect, useState } from "react";
+import { useRef, useEffect } from "react";
 import { ArrowRight, Sparkles } from "lucide-react";
 
 export default function HeroCreative() {
   const ref = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -15,11 +14,10 @@ export default function HeroCreative() {
   });
 
   const backgroundY = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const textY = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePosition({ x: e.clientX, y: e.clientY });
+    const handleMouseMove = () => {
+      // Mouse tracking removed as not used
     };
     window.addEventListener("mousemove", handleMouseMove);
     return () => window.removeEventListener("mousemove", handleMouseMove);
@@ -136,7 +134,7 @@ export default function HeroCreative() {
                 transition={{ delay: 0.8, duration: 0.6 }}
                 className="text-xl md:text-2xl text-gray-700 mb-10 max-w-2xl leading-relaxed"
               >
-                Long Island's premier partner for sacred property stewardship. 
+                Long Island&apos;s premier partner for sacred property stewardship. 
                 Transforming faith communities through exceptional facility management.
               </motion.p>
 

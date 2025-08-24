@@ -12,7 +12,6 @@ import {
   Shield,
   Clock,
 } from "lucide-react";
-import Link from "next/link";
 
 export default function FooterModern() {
   const currentYear = new Date().getFullYear();
@@ -205,7 +204,7 @@ export default function FooterModern() {
               <div className="bg-secondary/10 border border-secondary/20 rounded-lg p-6 hover:bg-secondary/20 transition-all duration-300 group cursor-pointer">
                 <h3 className="text-white font-semibold mb-3">Start Your Project</h3>
                 <p className="text-gray-400 text-sm mb-4">
-                  Transform your sacred spaces with Long Island's trusted partner.
+                  Transform your sacred spaces with Long Island&apos;s trusted partner.
                 </p>
                 <a
                   href="#contact"
@@ -232,7 +231,7 @@ export default function FooterModern() {
                 <span className="hidden md:inline">•</span>
                 <span>Proudly Serving Long Island</span>
                 <span className="hidden md:inline">•</span>
-                <span>Founded by Patrick O'Brien</span>
+                <span>Founded by Patrick O&apos;Brien</span>
               </div>
 
               <div className="flex items-center gap-6 text-sm">

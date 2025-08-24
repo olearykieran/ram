@@ -2,7 +2,7 @@
 
 import { motion, useScroll, useTransform } from "framer-motion";
 import Image from "next/image";
-import { useRef, useState, useEffect } from "react";
+import { useRef, useState } from "react";
 import { ArrowRight, Church, Shield, Clock, Users } from "lucide-react";
 
 export default function HeroCross() {
@@ -127,7 +127,7 @@ export default function HeroCross() {
 
                 {/* Subtitle */}
                 <p className="text-xl text-gray-200 mb-10 max-w-xl leading-relaxed">
-                  Serving Long Island's faith communities with exceptional 
+                  Serving Long Island&apos;s faith communities with exceptional 
                   stewardship and sacred property management since 2005.
                 </p>
 

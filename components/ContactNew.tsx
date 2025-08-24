@@ -2,31 +2,9 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { useState } from "react";
-import { Mail, Phone, MapPin, Send, Calendar, Clock } from "lucide-react";
-import { cn } from "@/lib/utils";
+import { Mail, Phone, MapPin, Calendar, Clock } from "lucide-react";
 
 export default function ContactNew() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    organization: "",
-    service: "",
-    message: "",
-  });
-  const [focused, setFocused] = useState<string | null>(null);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
 
   const contactInfo = [
     { icon: Phone, label: "Phone", value: "(516) 764-5500", link: "tel:+15167645500" },
@@ -61,7 +39,7 @@ export default function ContactNew() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-serif !text-white mb-6">
-            Let's <span className="italic font-light !text-secondary">Connect</span>
+            Let&apos;s <span className="italic font-light !text-secondary">Connect</span>
           </h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Begin your journey toward exceptional sacred space management
@@ -81,7 +59,7 @@ export default function ContactNew() {
               <h3 className="text-2xl font-serif text-white mb-6">Get in Touch</h3>
               <p className="text-gray-300 mb-8">
                 Ready to transform your sacred spaces? Our Long Island-based team is here to discuss 
-                how we can serve your faith community's unique needs throughout Nassau and Suffolk counties.
+                how we can serve your faith community&apos;s unique needs throughout Nassau and Suffolk counties.
               </p>
             </div>
 
@@ -145,7 +123,7 @@ export default function ContactNew() {
             <div className="glass-dark rounded-2xl p-8 md:p-12 backdrop-blur-xl text-center">
               <h3 className="text-3xl font-serif text-white mb-6">Ready to Get Started?</h3>
               <p className="text-xl text-gray-300 mb-8">
-                Contact Patrick O'Brien directly to discuss how we can serve your faith community
+                Contact Patrick O&apos;Brien directly to discuss how we can serve your faith community
               </p>
               
               <motion.a

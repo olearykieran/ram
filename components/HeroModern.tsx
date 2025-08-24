@@ -3,7 +3,7 @@
 import { motion, useScroll, useTransform, useMotionValue, useSpring } from "framer-motion";
 import Image from "next/image";
 import { useRef, useEffect } from "react";
-import { ChevronDown, Building2, Shield, Award, Clock } from "lucide-react";
+import { Building2, Shield, Award, Clock } from "lucide-react";
 
 export default function HeroModern() {
   const ref = useRef<HTMLDivElement>(null);
@@ -123,7 +123,7 @@ export default function HeroModern() {
                 transition={{ delay: 0.8, duration: 0.6 }}
                 className="text-xl text-gray-300 mb-10 max-w-xl leading-relaxed"
               >
-                Long Island's premier partner for sacred property stewardship. 
+                Long Island&apos;s premier partner for sacred property stewardship. 
                 Transforming faith communities through exceptional facility management.
               </motion.p>
 
